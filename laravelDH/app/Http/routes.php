@@ -11,6 +11,22 @@
 |
 */
 
+$peliculas = [
+                "Toy Story",
+                "Buscando a Nemo",
+                "Avatar",
+                "Star Wars: Episodio V",
+                "UP",
+                "Mary and Max"
+             ];
+
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/peliculas', function () {
+    return view('peliculas');
+});
+
