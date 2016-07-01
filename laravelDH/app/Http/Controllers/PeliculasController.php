@@ -1,8 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gerutz
- * Date: 1/7/16
- * Time: 4:49
- */
 
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+use App\Http\Requests;
+
+class PeliculasController extends Controller{
+
+    
+
+}

@@ -26,5 +26,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('/peliculas', 'PeliculasController@listar');
+Route::get('/peliculas', 'MoviesController@listar');
 
